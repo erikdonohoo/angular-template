@@ -1,6 +1,6 @@
 # Angular Template with Grunt/Bower
 
-This template is a starting point for making angular apps.  It is bundled with authentication and a collection of other useful MTC modules for helping you build your app.
+This template is a starting point for making angular apps.
 
 ### Getting Started
 
