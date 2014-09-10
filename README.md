@@ -7,7 +7,7 @@ This template is a starting point for making angular apps.  It is bundled with a
 1. Clone this repo
 2. `cd angular-template/`
 3. If you haven't already, you need to install [node.js](http://nodejs.org) and a few npm modules.  With node installed, run `npm install -g bower grunt-cli grunt yo generator-angular less`
-4. Run `npm install` and `bower install` (If you have issues with this saying you need administrator access or if it suggests you need to use `sudo` then you have installed `node` and `npm` incorrectly)
+4. Run `npm install` and `bower install` (If you have issues with this saying you need administrator access or if it suggests you need to use `sudo` then you have installed `node` and `npm` incorrectly. [This](http://howtonode.org/introduction-to-npm) might help.)
 5. Run `rm -rf .git/` to remove the git history from this project so you can start your own
 6. Choose a name for your app and run `grunt renameapp:<your-app-name>`.  Be sure that your app name follows convention and is in **lower train case** (also known as [spinal-case](http://en.wikipedia.org/wiki/Letter_case#Special_case_styles) or [kebab-case](http://stackoverflow.com/questions/11273282/whats-the-name-for-snake-case-with-dashes/12273101#12273101))
 7. Rename the folder containing this project to match the name from #5 `cd .. && mv angular-template/ <your-app-name>/ && cd <your-app-name>/`.
