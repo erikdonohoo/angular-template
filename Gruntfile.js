@@ -325,12 +325,12 @@ module.exports = function (grunt) {
 				src: ['app/version.json', 'app/index.html', 'app/scripts/**/*.js', 'test/spec/controllers/main.js', 'bower.json', 'package.json'],
 				overwrite: true,
 				replacements: [{
-					from: 'grunt-ng-template-mtc',
+					from: 'angular-template',
 					to: function () {
 						return newName;
 					}
 				}, {
-					from: 'gruntNgTemplateMtcApp',
+					from: 'angularTemplateApp',
 					to: function () {
 						var name = newName.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase(); });
 						return name + 'App';
